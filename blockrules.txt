@@ -1,0 +1,6 @@
+bt.no##div.comment-content:has(div.author-name:contains("Haakon Lund Tofte"))
+bt.no##li.comment:has(>div.comment-content div.author-name:contains("Haakon Lund Tofte"))
+bt.no##div.column:has(a[href*="www.bt.no/sport"])
+bt.no##div.contentboard-container:has(div.premium-spot)
+bt.no##div.contentboard-container:has-text(annonsørinnhold)
+www.nrk.no##section.kur-floor:has(a[href*="www.nrk.no/sport"])
