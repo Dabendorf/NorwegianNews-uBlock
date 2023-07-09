@@ -3,6 +3,5 @@ bt.no##li.comment:has(>div.comment-content div.author-name:contains("Haakon Lund
 bt.no##div.column:has(a[href*="www.bt.no/sport"])
 bt.no##div.contentboard-container:has(div.premium-spot)
 bt.no##div.contentboard-container:has-text(annonsørinnhold)
-www.nrk.no##section.kur-floor:has(a[href*="www.nrk.no/sport"])
 www.nrk.no##section > div > div:has(a[href*="www.nrk.no/sport"])
 www.nrk.no##section > div > div:has(a[href*="resultater.nrk.no"])
