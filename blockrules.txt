@@ -5,3 +5,10 @@ bt.no##div.contentboard-container:has(div.premium-spot)
 bt.no##div.contentboard-container:has-text(annonsørinnhold)
 www.nrk.no##section > div > div:has(a[href*="www.nrk.no/sport"])
 www.nrk.no##section > div > div:has(a[href*="resultater.nrk.no"])
+
+bt.no##div#most-read-articles
+bt.no##div#most-commented-articles
+bt.no##div#related-articles
+
+bt.no##div[id*="adPlacement"]:nth-ancestor(1)
+
