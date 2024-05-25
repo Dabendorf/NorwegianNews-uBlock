@@ -33,5 +33,6 @@ bt.no##div#most-read-articles
 bt.no##div#most-commented-articles
 bt.no##div#related-articles
 
-
-
+# Empty Divs
+www.bt.no##div.advertory-bt-netboard-wrapper
+www.bt.no###widget-recirculation-matrix
