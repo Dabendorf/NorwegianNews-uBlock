@@ -24,6 +24,8 @@ bt.no##div[id*="adPlacement"]:nth-ancestor(1)
 # BT-Spam
 bt.no##div.comment-content:has(div.author-name:contains("Haakon Lund Tofte"))
 bt.no##li.comment:has(>div.comment-content div.author-name:contains("Haakon Lund Tofte"))
+bt.no##div.comment-content:has(div.author-name:contains("Haakon Tofte"))
+bt.no##li.comment:has(>div.comment-content div.author-name:contains("Haakon Tofte"))
 
 # BT-Idrett
 bt.no##div.column:has(a[href*="www.bt.no/sport"])
@@ -32,6 +34,11 @@ bt.no##div.column:has(a[href*="www.bt.no/sport"])
 bt.no##div#most-read-articles
 bt.no##div#most-commented-articles
 bt.no##div#related-articles
+bt.no##.advertory-brandmetrics-survey
+bt.no##.recirculation-matrix
+bt.no##.paywall
+bt.no##a[data-test-tag="teaser-small:link-internal"]
+bt.no##.sch-datacontroller.sch-datacontroller--cobranded.sch-datacontroller--permanent
 
 # Empty Divs
 www.bt.no##div.advertory-bt-netboard-wrapper
