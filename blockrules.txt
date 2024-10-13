@@ -11,8 +11,16 @@ youtube.com###buttons.ytd-masthead
 youtube.com##.ytp-endscreen-content
 
 # NRK
-www.nrk.no##section > div > div:has(a[href*="www.nrk.no/sport"])
-www.nrk.no##section > div > div:has(a[href*="resultater.nrk.no"])
+nrk.no##section > div > div:has(a[href*="www.nrk.no/sport"])
+nrk.no##section > div > div:has(a[href*="resultater.nrk.no"])
+nrk.no##section > div > div:has-text(boligpris)
+nrk.no##section > div > div:has-text(rente)
+nrk.no##section > div > div:has-text(norges bank)
+nrk.no##section > div > div:has-text(megler)
+nrk.no##section > div > div:has-text(Boligpris)
+nrk.no##section > div > div:has-text(Rente)
+nrk.no##section > div > div:has-text(Norges bank)
+nrk.no##section > div > div:has-text(Megler)
 
 # BT
 # BT-Reklame
@@ -29,6 +37,15 @@ bt.no##li.comment:has(>div.comment-content div.author-name:contains("Haakon Toft
 
 # BT-Idrett
 bt.no##div.column:has(a[href*="www.bt.no/sport"])
+bt.no##article:has(:has-text(boligpris))
+bt.no##article:has(:has-text(rente))
+bt.no##article:has(:has-text(norges bank))
+bt.no##article:has(:has-text(megler))
+bt.no##article:has(:has-text(Boligpris))
+bt.no##article:has(:has-text(Rente))
+bt.no##article:has(:has-text(Norges bank))
+bt.no##article:has(:has-text(Megler))
+
 
 # BT-Fuzz
 bt.no##div#most-read-articles
@@ -41,5 +58,16 @@ bt.no##a[data-test-tag="teaser-small:link-internal"]
 bt.no##.sch-datacontroller.sch-datacontroller--cobranded.sch-datacontroller--permanent
 
 # Empty Divs
-www.bt.no##div.advertory-bt-netboard-wrapper
-www.bt.no###widget-recirculation-matrix
+bt.no##div.advertory-bt-netboard-wrapper
+bt.no###widget-recirculation-matrix
+bt.no##div[id^="widget-recirculation-matrix"]
+
+# E24
+e24.no##article:has(:has-text(boligpris))
+e24.no##article:has(:has-text(rente))
+e24.no##article:has(:has-text(norges bank))
+e24.no##article:has(:has-text(megler))
+e24.no##article:has(:has-text(Boligpris))
+e24.no##article:has(:has-text(Rente))
+e24.no##article:has(:has-text(Norges bank))
+e24.no##article:has(:has-text(Megler))
