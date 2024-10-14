@@ -37,6 +37,9 @@ bt.no##li.comment:has(>div.comment-content div.author-name:contains("Haakon Toft
 
 # BT-Idrett
 bt.no##div.column:has(a[href*="www.bt.no/sport"])
+bt.no##.widget-football
+
+# Economyshit
 bt.no##article:has(:has-text(boligpris))
 bt.no##article:has(:has-text(rente))
 bt.no##article:has(:has-text(norges bank))
