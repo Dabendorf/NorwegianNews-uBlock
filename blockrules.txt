@@ -56,9 +56,14 @@ bt.no##div#most-commented-articles
 bt.no##div#related-articles
 bt.no##.advertory-brandmetrics-survey
 bt.no##.recirculation-matrix
-bt.no##.paywall
 bt.no##a[data-test-tag="teaser-small:link-internal"]
 bt.no##.sch-datacontroller.sch-datacontroller--cobranded.sch-datacontroller--permanent
+bt.no##div[id^="react-root-reels"]
+bt.no##div[id^="widget-benefits-widget"]
+bt.no##div[id*="widget-benefits-widget"]
+bt.no##div[class*="widget-benefits-widget"]
+bt.no##div#podcast-overview
+bt.no##div#widget-benefits-widget
 
 # Empty Divs
 bt.no##div.advertory-bt-netboard-wrapper
