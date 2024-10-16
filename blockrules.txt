@@ -64,6 +64,9 @@ bt.no##div[id*="widget-benefits-widget"]
 bt.no##div[class*="widget-benefits-widget"]
 bt.no##div#podcast-overview
 bt.no##div#widget-benefits-widget
+bt.no##.widget-football
+bt.no##.vertical-static-ad
+bt.no##.vertical-x1-ad
 
 # Empty Divs
 bt.no##div.advertory-bt-netboard-wrapper
