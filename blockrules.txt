@@ -21,6 +21,7 @@ nrk.no##section > div > div:has-text(Boligpris)
 nrk.no##section > div > div:has-text(Rente)
 nrk.no##section > div > div:has-text(Norges bank)
 nrk.no##section > div > div:has-text(Megler)
+nrk.no##.kur-floor--video:has(h2.kur-floor__title:has(span.kur-floor__title-text:has-text(NRK Forklarer)))
 
 # BT
 # BT-Reklame
