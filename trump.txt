@@ -1,0 +1,19 @@
+! Aftenposten
+www.aftenposten.no##.image-wrapper:has-text(/Trump/)
+www.aftenposten.no##.widget-article:has-text(/Trump/)
+www.aftenposten.no##.teaser-link:has-text(/Trump/)
+www.aftenposten.no##.teaser-link > .container > .text-container > div > .title:has-text(/Trump/):nth-ancestor(7)
+www.aftenposten.no##.teaser-link > .container > .title:has-text(/Trump/):nth-ancestor(4)
+
+! Dagsavisen
+www.dagsavisen.no##.promo-item-margins:has-text(/Trump/)
+www.dagsavisen.no##.simple-list-headline-text:has-text(/Trump/):nth-ancestor(2)
+
+! NRK
+www.nrk.no##.kur-room__title:has-text(/Trump/):nth-ancestor(2)
+www.nrk.no##.kur-floor--top.kur-floor:has-text(/Trump/)
+www.nrk.no##.heading-text:has-text(/Trump/):nth-ancestor(9)
+www.nrk.no##.kur-floor--apartment:has-text(/Trump/)
+
+! alternativ
+! https://addons.mozilla.org/en-US/firefox/addon/bliss-content-filter/
